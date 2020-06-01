@@ -13,7 +13,7 @@ root.resizable(1,1) #ancho, alto
 root.iconbitmap('radar.ico')
 
 frame = Frame(root, width=480, height=320)
-frame.pack(fill="x")
+frame.pack(fill="x") #usar both para x, y
 frame.config(cursor="pirate")
 frame.config(bg="lightblue")
 frame.config(bd=25)
